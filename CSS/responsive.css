@@ -1,0 +1,10 @@
+@media screen and (max-width: 1000px) {
+    main{
+        background-image: url(../Image/car6.jpg);
+    }
+
+    footer{
+        background-color: black;
+    }
+
+}

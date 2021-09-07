@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+
+.all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  padding: 2px;
+  margin: auto auto auto 6px;
+  width: 74px;
+  background-color: rgb(14, 12, 12);
+  color: white;
+  border-radius: 5px;
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+}

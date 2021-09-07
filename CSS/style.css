@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    padding: 15px;
+}
+
+nav ul{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 15px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Bona Nova', serif;
+}
+
+nav ul li a:hover{
+    color:rgb(129, 126, 123)
+}
+
+header{
+    background-color: black;
+    color: white;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 400px;
+    height: 27px;
+    border-radius: 6px;
+    margin: auto auto auto 366px;
+    font-size: 18px;
+}
+
+main{
+    min-height: calc(100vh - 8vh - 10vh + 90vh);
+    background-image: url('../image/car3.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about{
+    height: 60vh;
+}
+
+.container h1{
+    font-family: 'Festive', cursive;
+    margin: auto auto 25px 73px;
+}
+
+.card{
+    display: flex;
+    font-size: 20px;
+    max-width: 95vw;
+    margin: auto auto 56px auto;
+    /* overflow: hidden; */
+}
+
+.card-item img{
+    height: 120px;
+    border-radius: 12%;
+}
+.card-item
+{
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto auto 70px 60px;
+    background-color: white;
+    border-radius: 12%;
+}
+
+
+footer{
+    height: 7vh;
+    background-color: rgb(59, 78, 78);
+    color: white;
+    font-size: 25px;
+    font-family: 'Bona Nova', serif;
+}
